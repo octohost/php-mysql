@@ -3,7 +3,6 @@
 echo "DB: $DB_PORT_3306_TCP_PORT";
 echo "DB: $DB_PORT_3306_TCP_ADDR";
 
-<?php
 $con=mysqli_connect("$DB_PORT_3306_TCP_ADDR","username","password","ambassador");
 // Check connection
 if (mysqli_connect_errno())
